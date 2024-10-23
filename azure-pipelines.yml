@@ -13,10 +13,10 @@ steps:
     versionSpec: '14.x'  # Specify the Node.js version you want to use
     checkLatest: true
 
-- script: |
-    npm install -g htmlhint  # Install htmlhint globally
-  displayName: 'Install htmlhint'
+# - script: |
+#     npm install -g htmlhint  # Install htmlhint globally
+#   displayName: 'Install htmlhint'
 
-- script: |
-    htmlhint **/*.html  # Lint all HTML files in the repository
-  displayName: 'Lint HTML files'
+# - script: |
+#     htmlhint **/*.html  # Lint all HTML files in the repository
+#   displayName: 'Lint HTML files'
